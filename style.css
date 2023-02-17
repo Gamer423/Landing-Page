@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+}
+
+.mainpage {
+    background-image: url(./img/backgroundmain.png);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    height: 10vh;
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.logo {
+    height: 55px;
+    margin-top: 10px;
+}
+
+.header :nth-child(4) {
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header {
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    color: white;
+    font-family: fantasy;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+
+.welcome :nth-child(1) {
+    font-size: 70px;
+}
+
+.welcome :nth-child(2) {
+    font-size: 120px;
+    margin-top: -100px;
+}
+
+.welcome :nth-child(3) {
+    font-size: 20px;
+    margin-top: -150px;
+}
+
+.buttons {
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 30px;
+    height: 50px;
+    color: aliceblue;
+}
+
+.buttons > button {
+    font-family: fantasy;
+    cursor: pointer;
+    background-color: transparent;
+    height: 65px;
+    width: 150px;
+    color: white;
+    font-size: 35px;
+    border-color: rgb(63, 59, 59);
+    border-radius: 5px;
+    gap: 100px;
+    background-color: rgba(31, 23, 23, 0.371);
+
+}
+
+.buttons :nth-child(2) {
+    width: 250px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 50px;
+    max-height: 60vh;
+    font-family: fantasy;
+    background-image: url(./img/about.png);
+}
+
+.about :nth-child(2) {
+    margin-top: ;
+    width: 70vh;
+    align-self: center;
+    font-size: 20px;
+    
+}
+
+
+.previous {
+    height: 10000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
