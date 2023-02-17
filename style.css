@@ -93,13 +93,20 @@ body {
     color: antiquewhite;
     text-align: center;
     font-size: 50px;
-    max-height: 60vh;
     font-family: fantasy;
     background-image: url(./img/about.png);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.about :nth-child(1) {
+    margin-bottom: -20px;
+    margin-top: 65px;
 }
 
 .about :nth-child(2) {
-    margin-top: ;
     width: 70vh;
     align-self: center;
     font-size: 20px;
@@ -111,6 +118,21 @@ body {
     height: 10000px;
 }
 
+
+.cryptohopper-web-widget {
+    height: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(31, 28, 28);
+    color: whitesmoke;
+}
+
+.footer > p {
+    text-align: center;
+}
 
 
 
